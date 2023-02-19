@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SocialTech</title>
+    <meta charset="utf-8">
+    <meta name="description" content="SocialTechはEdTech業界のリーディングカンパニーを目指します。">
+    <meta name="viewport" content="width=device-width, initial-scal=1.0">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  </head>
+
+  <body>
+    <section id="contact">
+      <h2 class="index-h2">CONTACT</h2>
+      <h3>お問い合わせ</h3>
+      <form id="form">
+        <input type="text" name="honeypot" style="display:none">
+        <input type="hidden" name="accessKey" value="7b9e116f-2edd-44e6-b213-fdd72d32123e">
+        <input type="hidden" name="subject" value="Webサイトからお問い合わせがありました" />
+        <input type="hidden" name="replyTo" value="atara.c.daisuke@gmail.com">
+        <input type="hidden" name="redirectTo" value="https://atarac.github.io/socialtech/">     
+        <div>
+          <div class="contact-heading">
+            <label for="name" class="contact-label">お名前<span class="contact-span">必須</span></label>
+          </div>
+          <div class="contact-form">
+            <input id="name" type="text" name="name" placeholder="入力してください" class="contact-textbox">
+          </div>
+        </div>
+        <div>
+          <div class="contact-heading">
+            <label for="furigana" class="contact-label">フリガナ<span class="contact-span">必須</span></label>
+          </div>
+          <div class="contact-form">
+            <input id="furigana" type="text" name="furigana" placeholder="入力してください" class="contact-textbox">
+          </div>
+        </div>
+        <div>
+          <div class="contact-heading">
+            <label for="email" class="contact-label">メールアドレス<span class="contact-span">必須</span></label>
+          </div>
+          <div class="contact-form">
+            <input id="email" type="text" name="email" placeholder="入力してください" class="contact-textbox">
+          </div>
+        </div>
+        <div>
+          <div class="contact-heading">
+            <label for="phone" class="contact-label">電話番号</label>
+          </div>
+          <div class="contact-form">
+            <input id="phone" type="text" name="phone" placeholder="入力してください" class="contact-textbox">
+          </div>
+        </div>
+        <div>
+          <div class="contact-heading">
+            <label for="message" class="contact-label">お問い合わせ内容<span class="contact-span">必須</span></label>
+          </div>
+          <div>
+            <textarea id="message" class="contact-textarea" placeholder="入力してください" class="contact-textbox" name="message"></textarea>
+          </div>
+        </div>
+        <div>
+          <div class="contact-heading">
+            <label for="contact" class="contact-label">ご希望の連絡先<span class="contact-span">必須</span></label>
+          </div>
+          <div>
+            <input class="radiobutton" type="radio" value="phone" name="contact" checked><label>お電話</label>
+            <input class="radiobutton" type="radio" value="mail" name="contact"><label>メール</label>
+            <input class="radiobutton" type="radio" value="both" name="contact"><label>どちらでも</label>
+          </div>
+        </div>
+        <div>
+          <div class="contact-heading">
+            <label for="agree" class="contact-label">個人情報の取り扱い</label>
+          </div>
+            <input id="agree" type="checkbox" name="agree">
+            <span>個人情報の取り扱いについてご同意いただける場合は、チェックをしてください。</span>
+          </div>
+        </div>
+        <button id="submit" type="button">送信する</button>
+      </form>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+  
+</html>
